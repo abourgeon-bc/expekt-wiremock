@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/r2/svcshared/st02/svcglobalapi/api/GoogleTagManager"
+    },
+    "response": {
+        "status": 200,
+        "body": '{"googleTagManagerCode":"GTM-528CMQ","dataLayer":{"partner_id":"_ek_none_se_casino","ua":null,"environment":"staging","global_domain":".expekt.se","country_code":"se","channel_id":72,"dataLayer_contains_hybridpage":false,"universe":"casino","page_type":"Global","dataLayer_contains_User_Block":"true","userId":"11727778","user_days_since_registration":"37","user_player_status":"","user_player_seniority":"","user_age":"37","user_gender":"M","user_city":"Stockholm"}}',
+        "headers": {
+            "Content-Type": "application/json",
+			"Access-Control-Allow-Credentials": "true",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Expose-Headers": "X-CLIENT"
+        }
+    }
+}

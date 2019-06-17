@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPattern": "/r2/svcshared/st02/svcglobalapi/api/se/register/user\\?id=.*"
+    },
+    "response": {
+        "status": 200,
+        "body": '{"user":{"userId":11730855,"valCode":800996,"code":0,"extraCode":0,"partnerCode":"_ek_none_se_sport","zoneCode":"_Default","migrationModel":null,"userSessionId":-1,"siteCode":null,"languageCode":null,"username":null,"balance":0.0,"currency":null,"currencySymbol":null,"reactivationDate":null,"birthDate":"0001-01-01T00:00:00","lastLoginDate":null,"highestPepCategory":null,"encryptedPassword":null,"countryCode":null},"token":null,"regulationContext":null,"legalContext":{"shouldDisplayRegulationPage":true,"shouldDisplayAddressLookUp":false,"shouldDisplayTimer":true,"shouldDisplayAgeBanner":false,"shouldDisplayWageringLimits":false,"userRealityCheckLegalSetting":{"isEnabled":false,"showPopup":false,"cooldownTime":0,"lastLoginDate":"2019-06-11T15:13:57.1657975Z","realityCheckType":0},"regulatorId":12,"ageOfMajority":18,"ageOfMajorityForCasino":18,"maxAgeForRegistration":115},"regulationToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJHbG9iYWwuTW9iaWxlLkFwaS5BdXRoLkFwaS5TaGEyNTZBbGdvcml0aG0ifQ.MTE3MzA4NTU.AGPxZpnQccRiWJpWzHA7yeiGwdRSOoIm1j2lV6oIB98"}',
+        "headers": {
+            "Content-Type": "application/json",
+			"Access-Control-Allow-Credentials": "true",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Expose-Headers": "X-CLIENT"
+        }
+    }
+}

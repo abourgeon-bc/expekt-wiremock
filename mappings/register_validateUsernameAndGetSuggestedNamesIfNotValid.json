@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/r2/svcshared/st02/svcglobalapi/api/register/validateUsernameAndGetSuggestedNamesIfNotValid"
+    },
+    "response": {
+        "status": 200,
+        "body": '[]',
+        "headers": {
+            "Content-Type": "application/json",
+			"Access-Control-Allow-Credentials": "true",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Expose-Headers": "X-CLIENT"
+        }
+    }
+}

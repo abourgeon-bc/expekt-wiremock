@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/r2/svcshared/st02/svcglobalapi/api/bonus/GetDepositOptinBonusesCount"
+    },
+    "response": {
+        "status": 200,
+        "body": '{"count":1}',
+        "headers": {
+            "Content-Type": "application/json",
+			"Access-Control-Allow-Credentials": "true",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Expose-Headers": "X-CLIENT"
+        }
+    }
+}

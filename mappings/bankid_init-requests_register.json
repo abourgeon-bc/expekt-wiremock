@@ -1,0 +1,19 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/r2/svcshared/st02/svcglobalapi/api/bankId/init-requests",
+		"bodyPatterns": [{
+			"matches": ".\"type\":\"register\".*"
+		}]
+    },
+    "response": {
+        "status": 200,
+        "body": '{"bankId_init_request":{"user_ip":"10.233.8.1","type":"register","id":"95264de5-132c-4a9f-934e-94dbf46e3cc2","creation_date":"2019-06-11T15:13:28.7659722Z","status":"success","orderRef":"9681b14c-b0f2-42d8-a12f-0d274f40ceb3","autoStartToken":"2df861e2-b409-4d61-8989-eff9561542e2","personal_number":"196702037539"},"poll_settings":{"frequency_in_seconds":5,"timeout_in_seconds":180,"poll_url":"collect-registration-requests"}}',
+        "headers": {
+            "Content-Type": "application/json",
+			"Access-Control-Allow-Credentials": "true",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Expose-Headers": "X-CLIENT"
+        }
+    }
+}

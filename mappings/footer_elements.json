@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/r2/svcshared/st02/svcglobalapi/api/footer/elements?applicationId=ExpektSe"
+    },
+    "response": {
+        "status": 200,
+        "body": '{"icons":[{"image":"https://betclick.hs.llnwd.net/e1/page/images/global/logos/logo_stodlinjen_text.png","link":"https://stodlinjen.se/#!/","code":"stodlinjen"},{"image":"https://betclick.hs.llnwd.net/e1/page/images/global/logos/logo_lotterie_inspektionnen_text.png","link":"https://www.lotteriinspektionen.se/ ","code":"sga_licence"},{"image":"https://betclick.hs.llnwd.net/e1/page/images/global/logos/logo_18_plus_text.png","link":"https://m.expekt.se/sport-odds/responsiblegaming","code":"18+ BC Webapp"}],"links":[{"text":"Generella regler & villkor","url":"./termsAndConditions","code":" footer_tc "},{"text":"Ansvarsfullt spelande","url":"./responsiblegaming","code":" footer_rg "},{"text":"Sekretessavtal & cookies","url":"./privacypolicy","code":" footer_Privacy&Cookies "}],"disclaimers":["Expekt.se sköts av Expekt Nordics Limited, med registeringsnummer C86968 och adress Tagliaferro Business Center, vån 3, High Street/Gaiety Lane, Sliema, SLM 1551, Malta. Spel med tillstånd från spelinspektionen, tillstånd nummer 18Li7388 giltiga till 31 december, 2023.","Kontaktinformation: kundservice@expekt.se","<b>DET KAN VARA BEROENDEFRAMKALLANDE ATT SPELA, VÄNLIGEN SPELA ANSVARSFULLT</b>"],"login":null}',
+        "headers": {
+            "Content-Type": "application/json",
+			"Access-Control-Allow-Credentials": "true",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Expose-Headers": "X-CLIENT"
+        }
+    }
+}

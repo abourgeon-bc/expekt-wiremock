@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/r2/svcshared/st02/svcglobalapi/api/account/GetUserOverview"
+    },
+    "response": {
+        "status": 200,
+        "body": '{"userContext":{"isLogged":false,"userId":0,"username":"","segment":"","ringFencedCasinoBalance":0.0,"balance":0.0,"freebetBalance":0.0,"email":"","bonusBalance":0.0,"status":0,"notifications":0},"legalContext":{"shouldDisplayRegulationPage":false,"shouldDisplayAddressLookUp":false,"shouldDisplayTimer":false,"shouldDisplayAgeBanner":false,"shouldDisplayWageringLimits":true,"userRealityCheckLegalSetting":{"isEnabled":false,"showPopup":false,"cooldownTime":0,"lastLoginDate":"2019-06-11T15:13:57.358052Z","realityCheckType":0},"regulatorId":1,"ageOfMajority":18,"ageOfMajorityForCasino":18,"maxAgeForRegistration":115}}',
+        "headers": {
+            "Content-Type": "application/json",
+			"Access-Control-Allow-Credentials": "true",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Expose-Headers": "X-CLIENT"
+        }
+    }
+}

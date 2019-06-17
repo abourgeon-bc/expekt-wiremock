@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/r2/svcshared/st02/svcglobalapi/api/se/accountRegulation"
+    },
+    "response": {
+        "status": 200,
+        "body": '{"legalAuth":{"isAllowed":true,"authenticationResult":0,"authenticationResultDetail":0,"shouldCongratulateUser":null},"username":"gfgdfgdfg","user":{"userId":11389356,"valCode":0,"code":0,"extraCode":0,"partnerCode":null,"zoneCode":null,"migrationModel":null,"userSessionId":546267368,"siteCode":"sesv","languageCode":"sv","username":"gfgdfgdfg","balance":0.00,"currency":"sek","currencySymbol":"kr","reactivationDate":null,"birthDate":"1959-01-06T00:00:00","lastLoginDate":"juni 11, 2019 03:52:29 ","highestPepCategory":null,"encryptedPassword":null,"countryCode":null},"token":{"auth":"eyJ0eXAiOiJKV1QiLCJhbGciOiJHbG9iYWwuTW9iaWxlLkFwaS5BdXRoLkFwaS5TaGEyNTZBbGdvcml0aG0ifQ.IntcIklwXCI6XCIxMC4zNC4xOS4zOFwiLFwiVXNlcklkXCI6MTEzODkzNTYsXCJTZXNzaW9uXCI6XCI1NDYyNjczNjhcIixcIkNvdW50cnlDb2RlXCI6XCJTRVwiLFwiTGFuZ3VhZ2VDb2RlXCI6XCJzdlwiLFwiQ3VycmVuY3lDb2RlXCI6XCJzZWtcIixcIklzQWRtaW5cIjp0cnVlLFwiSXNMb2dnZWRGcm9tQm9cIjpmYWxzZSxcIklzTGF1bmNoZXJcIjpmYWxzZSxcIlJlZ3VsYXRvcklkXCI6MTIsXCJOb3RCZWZvcmVcIjpcIjIwMTktMDYtMTFUMTU6NTA6MjkuOTEzNTA3MlpcIixcIkV4cGlyYXRpb25UaW1lXCI6XCIyMDE5LTA2LTExVDE2OjEyOjI5LjkxMzUwNzJaXCJ9Ig.YZaOviXOke5SoNXVUQKtMKTAfU8ATNcR1unyTwUijxM","context":"eyJ0eXAiOiJKV1QiLCJhbGciOiJHbG9iYWwuTW9iaWxlLkFwaS5BdXRoLkFwaS5TaGEyNTZBbGdvcml0aG0ifQ.IntcIkxlZ2lzbGF0aW9uXCI6XCJTZVwiLFwiU2l0ZVwiOlwiU2VTdlwiLFwiTGFuZ3VhZ2VcIjpcIlN2XCIsXCJDaGFubmVsSWRcIjpcIkV4cGVrdFNlTW9iaWxlXCIsXCJVbml2ZXJzZVwiOlwiU3BvcnRzXCIsXCJOb3RCZWZvcmVcIjpcIjIwMTktMDYtMTFUMTU6NTA6MjkuOTEzNTA3MlpcIixcIkV4cGlyYXRpb25UaW1lXCI6XCIyMDE5LTA2LTExVDE1OjU1OjI5LjkxMzUwNzJaXCJ9Ig.A9LfPKJv481kbYG_kwPdvMjUvdetFFCKOwgsebfofYs"}}',
+        "headers": {
+            "Content-Type": "application/json",
+			"Access-Control-Allow-Credentials": "true",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Expose-Headers": "X-CLIENT"
+        }
+    }
+}

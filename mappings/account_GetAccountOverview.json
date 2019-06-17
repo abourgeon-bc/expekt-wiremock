@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/r2/svcshared/st02/svcglobalapi/api/account/GetAccountOverview"
+    },
+    "response": {
+        "status": 200,
+        "body": '{"balance":0.00,"withdrawable":0.00,"notifications":1,"ringFencedCasinoBalance":0.0,"counters":{"mailBox":0,"bonus":1},"bonusbalance":0.0,"freebetBalance":0.00,"totalBalance":0.00,"status":3,"remainingSessionTimeInMinutes":null}',
+        "headers": {
+            "Content-Type": "application/json",
+			"Access-Control-Allow-Credentials": "true",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Expose-Headers": "X-CLIENT"
+        }
+    }
+}

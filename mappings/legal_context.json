@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/r2/svcshared/st02/svcglobalapi/api/legal/context"
+    },
+    "response": {
+        "status": 200,
+        "body": '{"shouldDisplayRegulationPage":true,"shouldDisplayAddressLookUp":true,"shouldDisplayTimer":false,"shouldDisplayAgeBanner":false,"shouldDisplayWageringLimits":false,"userRealityCheckLegalSetting":{"isEnabled":true,"showPopup":true,"cooldownTime":10,"lastLoginDate":"2019-06-11T15:52:29.91Z","realityCheckType":2},"regulatorId":12,"ageOfMajority":18,"ageOfMajorityForCasino":18,"maxAgeForRegistration":115}',
+        "headers": {
+            "Content-Type": "application/json",
+			"Access-Control-Allow-Credentials": "true",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Expose-Headers": "X-CLIENT"
+        }
+    }
+}

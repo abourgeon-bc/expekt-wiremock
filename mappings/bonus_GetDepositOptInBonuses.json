@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/r2/svcshared/st02/svcglobalapi/api/bonus/GetDepositOptInBonuses"
+    },
+    "response": {
+        "status": 200,
+        "body": '[{"assignedOn":"2019-06-11T16:48:35.33","bonusCode":null,"bonusId":8474,"bonusType":"bonus_new","contentPage":"","endDate":"2019-12-08T16:48:35.33","isOptIn":true,"mobileContentPage":"","optinStatus":0,"text":"500% Välkomstbonus","title":"500% Välkomstbonus","translationId":0,"universe":"Sport","userId":11389356,"showToC":false,"startDate":"0001-01-01T00:00:00","isWelcomeBonus":true,"isBit8Bonus":false,"isVipBonus":false,"isMultiUniverse":false},{"assignedOn":"0001-01-01T00:00:00","bonusCode":null,"bonusId":0,"bonusType":"no-thanks-option","contentPage":null,"endDate":null,"isOptIn":true,"mobileContentPage":null,"optinStatus":1,"text":"No thanks, I do not want to use a deposit bonus now","title":null,"translationId":0,"universe":null,"userId":0,"showToC":false,"startDate":"0001-01-01T00:00:00","isWelcomeBonus":false,"isBit8Bonus":false,"isVipBonus":false,"isMultiUniverse":false}]',
+        "headers": {
+            "Content-Type": "application/json",
+			"Access-Control-Allow-Credentials": "true",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Expose-Headers": "X-CLIENT"
+        }
+    }
+}

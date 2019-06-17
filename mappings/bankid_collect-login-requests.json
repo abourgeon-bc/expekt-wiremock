@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/r2/svcshared/st02/svcglobalapi/api/bankId/collect-login-requests"
+    },
+    "response": {
+        "status": 200,
+        "body": '{"status":"complete","username":"AURBOU","personal_number":"198205125738","login_V3_Content":{"recap":{"display":true,"recapItems":[{"currencySymbol":"kr","currencyCode":"sek","accumulatedLosses":0.0,"lastLoginDate":"2019-06-10T10:26:03.23Z","dailyLimit":2000.00,"weeklyLimit":5000.00,"monthlyLimit":9000.00,"areLimitsSetUp":true,"itemType":"UserLoginLimitLossesRecapItem"}]},"recapLogin":{"display":true,"recapItems":[{"currencySymbol":"kr","currencyCode":"sek","accumulatedLosses":0.0,"lastLoginDate":"2019-06-10T10:26:03.23Z","dailyLimit":2000.00,"weeklyLimit":5000.00,"monthlyLimit":9000.00,"areLimitsSetUp":true,"itemType":"UserLoginLimitLossesRecapItem"}]},"errors":null,"currency":"kr","currencyCode":"sek","languageCode":"sv","token":{"auth":"eyJ0eXAiOiJKV1QiLCJhbGciOiJHbG9iYWwuTW9iaWxlLkFwaS5BdXRoLkFwaS5TaGEyNTZBbGdvcml0aG0ifQ.IntcIklwXCI6XCIxMC4yMzMuOC4xXCIsXCJVc2VySWRcIjoxMTcyNzc3OCxcIlNlc3Npb25cIjpcIlwiLFwiQ291bnRyeUNvZGVcIjpcIlNFXCIsXCJMYW5ndWFnZUNvZGVcIjpcInN2XCIsXCJDdXJyZW5jeUNvZGVcIjpcInNla1wiLFwiSXNBZG1pblwiOnRydWUsXCJJc0xvZ2dlZEZyb21Cb1wiOmZhbHNlLFwiSXNMYXVuY2hlclwiOmZhbHNlLFwiUmVndWxhdG9ySWRcIjotMSxcIk5vdEJlZm9yZVwiOlwiMjAxOS0wNi0xMlQwODoyNjoxMi4wOTQxMTdaXCIsXCJFeHBpcmF0aW9uVGltZVwiOlwiMjAxOS0wNi0xMlQxMDoyODoxMi4wOTQxMTdaXCJ9Ig.8KXgAEr1qHboOVx43x8_0y0YpWy2b7OITAwJEcWeMNM"},"contractToken":{},"status":"NeedRecap"}}',
+        "headers": {
+            "Content-Type": "application/json",
+			"Access-Control-Allow-Credentials": "true",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Expose-Headers": "X-CLIENT"
+        }
+    }
+}
