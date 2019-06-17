@@ -1,10 +1,11 @@
 # Expekt Wiremock
 
-Mock server POC for automated tests.
+Mock server proof of concept for automated tests on Expekt.
 
 ## Structure
 
-This project is using wiremock, in order to server expectable data (useful for testing purposes mainly).
+This project is using wiremock, in order to serve expectable data (useful for testing purposes mainly).
+It is delivered as a docker image.
 
 ## Build
 
